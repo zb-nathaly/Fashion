@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FASHION - Tienda Virtual</title>
+   <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon" />
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header class="header">
+
+      <div class="menu container" style="margin-top: 30px;" id="inicio">
+         <a href="index.html" class="logo" style="margin-right: -10%;">
+            <img src="img/logo.svg" alt="" width="30%">
+         </a>
+         <input type="checkbox" id="menu" />
+         <label for="menu">
+            <img src="img/menu.png" class="menu-icon" alt="menu">
+         </label>
+
+         <!-- Barra de navegacion -->
+         <nav class="navbar" style="margin-right: 20%;">
+            <ul>
+               <li><a href="#inicio">Inicio</a></li>
+               <li><a href="#producto">Productos</a></li>
+               <li><a href="#nosotros">Nosotros</a></li>
+               <li><a href="#contacto">Contacto</a></li>
+            </ul>
+         </nav>
+         <div>
+            <ul>
+               <li class="submenu">
+                  <img src="img/car.svg" id="card-icon" alt="">
+                  <div id="carrito">
+                     <table id="lista-carrito">
+                        <thead>
+                           <tr>
+                              <th>Imagen</th>
+                              <th>Nombre</th>
+                              <th>Precio</th>
+                              <th></th>
+                           </tr>
+                        </thead>
+                        <tbody></tbody>
+                     </table>
+                     <a href="#" id="vaciar-carrito" class="btn-2"> Limpiar Carrito</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+
+      <!-- Banner -->
+      <div class="header-content container">
+         <div class="header-img">
+            <img src="img/modelo.png" alt="">
+         </div>
+         <div class="header-txt">
+            <h1>Viste con estilo</h1>
+            <p>Encuentra tu estilo en nuestro espacio de moda. ¡Explora y sorpréndete!</p>
+            <a href="#producto" class="btn-1">Ver Más</a>
+         </div>
+      </div>
+   </header>
+
+   <main class="product container" id="lista-1">
+      <h2 style="margin-bottom: -50px;">OFRECEMOS</h2>
+   </main>
+
+   <!-- Casillas -->
+   <section class="ofert container" style="margin-top: 50px;">
+
+      <div class="ofert-1" style="background-color: #eb9cbb;">
+         <div class="ofert-img">
+            <img src="img/pantalon.png" alt="">
+         </div>
+         <div class="ofert-text">
+            <h3>Pantalones</h3>
+            <a href="#" class="btn-2">Todas las tallas</a>
+         </div>
+      </div>
+
+
+      <div class="ofert-1" style="background-color: #10bee1;">
+         <div class="ofert-img">
+            <img src="img/polos.png" alt="">
+         </div>
+         <div class="ofert-text">
+            <h3>Camisetas</h3>
+            <a href="#" class="btn-2">Variedad</a>
+         </div>
+      </div>
+
+
+      <div class="ofert-1" style="background-color: #f6db97;">
+         <div class="ofert-img">
+            <img src="img/zapatillas.png" alt="">
+         </div>
+         <div class="ofert-text">
+            <h3>zapatillas</h3>
+            <a href="#" class="btn-2">Gran calidad</a>
+         </div>
+      </div>
+   </section>
+
+   <!-- Productos -->
+   <main class="product container" id="lista-1">
+      <h2 id="producto">Productos</h2>
+      <div class="product-content">
+
+         <!-- Producto 1 -->
+         <div class="animation">
+            <div class="animation2">
+               <div class="products">
+                  <img src="img/producto1.png" alt="">
+                  <div class="product-text">
+                     <h3>Top Bandeu con estampado</h3>
+                     <p>de color: marron y beige</p>
+                     <p class="precio">S/. 23.00</p>
+                     <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+
+         <!-- Producto 2 -->
+         <div class="animation">
+            <div class="animation2">
+               <div class="products">
+                  <img src="img/producto2.png" alt="">
+                  <div class="product-text">
+                     <h3>Camiseta con mangas</h3>
+                     <p>de color: blanco y negro</p>
+                     <p class="precio">S/. 27.00</p>
+                     <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- Producto 3 -->
+         <div class="animation">
+            <div class="animation2">
+               <div class="products">
+                  <img src="img/producto3.png" alt="">
+                  <div class="product-text">
+                     <h3>Camiseta con cordones</h3>
+                     <p>de color: celeste con cordon</p>
+                     <p class="precio">S/. 30.00</p>
+                     <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- Producto 4 -->
+         <div class="animation">
+            <div class="animation2">
+               <div class="products">
+                  <img src="img/producto4.png" alt="">
+                  <div class="product-text">
+                     <h3>Pantalón Jean</h3>
+                     <p>Con estampado</p>
+                     <p class="precio">S/. 50.00</p>
+                     <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- Producto 5 -->
+         <div class="animation">
+            <div class="animation2">
+               <div class="products">
+                  <img src="img/producto5.png" alt="">
+                  <div class="product-text">
+                     <h3>Zapatilla Converse</h3>
+                     <p>de color: negro</p>
+                     <p class="precio">S/. 120.00</p>
+                     <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- Producto 6 -->
+         <div class="animation">
+            <div class="animation2">
+               <div class="products">
+                  <img src="img/producto6.png" alt="">
+                  <div class="product-text">
+                     <h3>Zapatilla Converse</h3>
+                     <p>de color: marron</p>
+                     <p class="precio">S/. 120.00</p>
+                     <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+
+   <main class="product container" id="lista-1">
+      <h2 style="margin-bottom: -2px;" id="contacto">CONTÁCTANOS</h2>
+      <div class="product-content">
+   </main>
+
+   <section class="icons container">
+
+      <div class="icon-1" id="ofrecemos">
+         <div class="icon-img">
+            <img src="img/i1.svg" alt="">
+         </div>
+         <div class="icon-txt">
+            <h3>Teléfono: </h3>
+            <p>993 675 120 o 978 837 902</p>
+         </div>
+      </div>
+
+      <div class="icon-1">
+         <div class="icon-img">
+            <img src="img/i2.svg" alt="">
+         </div>
+         <div class="icon-txt">
+            <h3>Correo Electrónico:</h3>
+            <p> fashion@gmail.com</p>
+         </div>
+      </div>
+
+      <div class="icon-1">
+         <div class="icon-img">
+            <img src="img/i3.svg" alt="">
+         </div>
+         <div class="icon-txt">
+            <h3>Atención: </h3>
+            <p>7:00 am - 10:00 pm de L a V</p>
+         </div>
+      </div>
+   </section>
+
+   <main class="product container" id="lista-1">
+      <h2 style="margin-bottom: -2px;" id="nosotros">SOBRE NOSOTROS</h2>
+      <div class="product-content">
+   </main>
+
+   <section class="blog container">
+      <div class="blog-1">
+         <img src="img/mision.jpeg" alt="">
+         <h3>MISIÓN</h3>
+         <p>Nuestra misión en Fashion es inspirar confianza y estilo en cada cliente, ofreciendo una amplia gama de
+            prendas de alta calidad que reflejen las últimas tendencias de la moda.
+         </p>
+      </div>
+
+      <div class="blog-1">
+         <img src="img/vision.jpeg" alt="">
+         <h3>VISIÓN</h3>
+         <p>Nuestra visión en Fashion es convertirnos en la marca líder reconocida a nivel mundial por ofrecer moda de
+            alta calidad a precios accesibles.
+         </p>
+      </div>
+
+      <div class="blog-1">
+         <img src="img/objetivo.jpeg" alt="">
+         <h3>OBJETIVOS</h3>
+         <p>Nuestro objetivo en Fashion es ofrecer moda de alta calidad a precios accesibles, proporcionar una
+            experiencia de compra excepcional.
+         </p>
+      </div>
+   </section>
+
+
+   <!-- Footer -->
+   <footer class="footer">
+
+      <div class="footer-content container">
+
+         <div class="link">
+            <h3>© Fashion</h1>
+               <ul>
+                  <li><a href="#"></a>Desarrollado por: Zavaleta Bautista Nathaly Jazmin</li>
+               </ul>
+         </div>
+      </div>
+   </footer>
+
+   <!--Scroll para que se revelen los elementos de forma suave-->
+   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
